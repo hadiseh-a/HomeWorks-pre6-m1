@@ -1,0 +1,15 @@
+{
+  "name": "express-2-crud-app",
+  "version": "1.0.0",
+  "description": "here you have a products array.you should implement CRUD routes using express and it's folder structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
