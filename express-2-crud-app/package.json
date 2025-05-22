@@ -4,12 +4,20 @@
   "description": "here you have a products array.you should implement CRUD routes using express and it's folder structure.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
