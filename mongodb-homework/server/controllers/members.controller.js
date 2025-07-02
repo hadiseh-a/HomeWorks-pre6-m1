@@ -4,6 +4,7 @@ export const getAllFacultyMembers = async (req, res) => {
   try {
     const members = await Member.find({});
     res.status(200).json(members);
+    Member.fi
   } catch (error) {
     res.status(400).json({ msg: error.message });
   }
