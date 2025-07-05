@@ -5,7 +5,7 @@ export const createPost = async (request, response) => {
   try {
     const { body } = request;
     if (!body.userId)
-      response.status(400).json({ error: "userId is requierd!" });
+      response.status(400).json({ error: "userId is required!" });
     const createdPost = await Post.create(body);
     response.status(201).send(createdPost);
   } catch (err) {
