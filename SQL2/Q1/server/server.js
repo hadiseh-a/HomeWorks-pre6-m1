@@ -9,8 +9,8 @@ const app = express();
 
 app.use(cors(), express.json(), express.urlencoded({ extended: true }));
 
-app.use("/user", userRouter);
-app.use("/post", postRouter);
+app.use("/users", userRouter);
+app.use("/posts", postRouter);
 
 const PORT = process.env.SERVER_PORT || 3000;
 
